@@ -1,0 +1,17 @@
+{
+    "dashboard_configuration": [
+        {
+            "title": "TableView"
+        },
+        {
+            "title": "SwitchTab"
+        },
+        {
+            "title": "AlertView"
+        },
+        {
+            "title": "Animation"
+        }
+    ]
+}
+

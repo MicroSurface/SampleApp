@@ -1,0 +1,20 @@
+{
+    "tableview_selection": [
+        {
+            "title": "EditableTableView"
+        },
+        {
+            "title": "ComplexSectionTableView"
+        },
+        {
+            "title": "ConnectedTableView"
+        },
+        {
+            "title": "MultipleNodesTableView"
+        },
+        {
+            "title": "WaterfallTableView"
+        }
+    ]
+}
+

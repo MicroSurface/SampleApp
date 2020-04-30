@@ -1,0 +1,130 @@
+{
+    "result": [
+        {
+            "title": "App",
+            "type": "header",
+            "content": [
+                {
+                    "tag": "新版上线",
+                    "name": "Pro camera by moment",
+                    "description": "新增延时摄影于4K视频导出"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "Pro camera by moment",
+                    "description": "新增延时摄影于4K视频导出"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "Pro camera by moment",
+                    "description": "新增延时摄影于4K视频导出"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "Pro camera by moment",
+                    "description": "新增延时摄影于4K视频导出"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "Pro camera by moment",
+                    "description": "新增延时摄影于4K视频导出"
+                }
+            ]
+        },
+        {
+            "title": "热门App",
+            "type": "mixed",
+            "content": [
+                {
+                    "tag": "新版上线",
+                    "name": "1Password-password manager",
+                    "description": "Generate&keep password"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "腾讯微云",
+                    "description": "安全自动备份照片视频"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "有道云",
+                    "description": "8亿人都在用的词典"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "Microsoft Powersoft",
+                    "description": "创建吸引人的演示文稿"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "印象笔记",
+                    "description": "你的第二大脑"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "1Password-password manager",
+                    "description": "Generate&keep password"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "腾讯微云",
+                    "description": "安全自动备份照片视频"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "有道云",
+                    "description": "8亿人都在用的词典"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "Pro camera by moment",
+                    "description": "新增延时摄影于4K视频导出"
+                },
+                {
+                    "tag": "新版上线",
+                    "name": "LinkdIn领英-全球职场人",
+                    "description": "全球职场人必备找工作软件"
+                }
+            ]
+        },
+        {
+            "title": "热门类别",
+            "type": "purelist",
+            "content": [
+                {
+                    "tag": "",
+                    "name": "Apple Watch",
+                    "description": ""
+                },
+                {
+                    "tag": "",
+                    "name": "摄影与录像",
+                    "description": ""
+                },
+                {
+                    "tag": "",
+                    "name": "儿童",
+                    "description": ""
+                },
+                {
+                    "tag": "",
+                    "name": "娱乐",
+                    "description": ""
+                },
+                {
+                    "tag": "",
+                    "name": "教育",
+                    "description": ""
+                },
+                {
+                    "tag": "",
+                    "name": "效率",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
+
+
+
