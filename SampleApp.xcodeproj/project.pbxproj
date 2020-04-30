@@ -41,6 +41,8 @@
 		01C2B2A22449822A00632D8C /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B2A12449822A00632D8C /* WaterfallLayout.swift */; };
 		01C2B2A42449A67100632D8C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B2A32449A67100632D8C /* Extensions.swift */; };
 		01C2B2A624516F4700632D8C /* MultipleNodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B2A524516F4600632D8C /* MultipleNodesView.swift */; };
+		01C2B2A9245AB87300632D8C /* CustmizedAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B2A8245AB87300632D8C /* CustmizedAlertView.swift */; };
+		01C2B2AB245ABC0300632D8C /* AlertViewSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B2AA245ABC0300632D8C /* AlertViewSelectionView.swift */; };
 		3A062D033BCF8EC364D89D82 /* Pods_SampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E9882156E0F27D764568D5 /* Pods_SampleAppTests.framework */; };
 		52C41061790D310286CE6075 /* Pods_SampleApp_SampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8417C2AA43F1E86F45A693 /* Pods_SampleApp_SampleAppUITests.framework */; };
 		5D611F42D6DB9ABA9AE1EDF9 /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0C3C53AAE02EB6D9031B4A /* Pods_SampleApp.framework */; };
@@ -104,6 +106,8 @@
 		01C2B2A12449822A00632D8C /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
 		01C2B2A32449A67100632D8C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		01C2B2A524516F4600632D8C /* MultipleNodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleNodesView.swift; sourceTree = "<group>"; };
+		01C2B2A8245AB87300632D8C /* CustmizedAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustmizedAlertView.swift; sourceTree = "<group>"; };
+		01C2B2AA245ABC0300632D8C /* AlertViewSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewSelectionView.swift; sourceTree = "<group>"; };
 		02DFCD7B22926BDDD6160D23 /* Pods-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3E8417C2AA43F1E86F45A693 /* Pods_SampleApp_SampleAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp_SampleAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		661C53129CBEC5A7C7C0A49C /* Pods-SampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -206,6 +210,7 @@
 		01C2B2642433361100632D8C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				01C2B2A7245AB7E900632D8C /* AlertView */,
 				01C2B2762433387600632D8C /* TableView */,
 			);
 			path = Controller;
@@ -277,6 +282,15 @@
 				01C2B2A524516F4600632D8C /* MultipleNodesView.swift */,
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		01C2B2A7245AB7E900632D8C /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				01C2B2A8245AB87300632D8C /* CustmizedAlertView.swift */,
+				01C2B2AA245ABC0300632D8C /* AlertViewSelectionView.swift */,
+			);
+			path = AlertView;
 			sourceTree = "<group>";
 		};
 		347B685F1DC5B2D80BEDEE5D /* Pods */ = {
@@ -555,6 +569,7 @@
 				01C2B29624443E7300632D8C /* CollectionViewCell.swift in Sources */,
 				01C2B2902440562100632D8C /* ComplexTableDataModel.swift in Sources */,
 				01C2B28A243ECEB200632D8C /* ComplexSection1TableCell.swift in Sources */,
+				01C2B2AB245ABC0300632D8C /* AlertViewSelectionView.swift in Sources */,
 				01C2B2822435C37300632D8C /* EditableTableDataModel.swift in Sources */,
 				0102137624332F78002CA94B /* ViewController.swift in Sources */,
 				0102137224332F78002CA94B /* AppDelegate.swift in Sources */,
@@ -570,6 +585,7 @@
 				01C2B26F2433371600632D8C /* DashboardCell.swift in Sources */,
 				01C2B26B2433369A00632D8C /* DashboardViewController.swift in Sources */,
 				01C2B29C2445A9D700632D8C /* WaterfallView.swift in Sources */,
+				01C2B2A9245AB87300632D8C /* CustmizedAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

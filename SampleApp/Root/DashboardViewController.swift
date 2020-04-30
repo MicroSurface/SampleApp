@@ -63,9 +63,15 @@ extension DashboardViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if listData?[indexPath.row].title == "TableView" {
+        switch listData?[indexPath.row].title {
+        case "TableView":
             let viewController = SelectionTableView()
             self.navigationController?.pushViewController(viewController, animated: true)
+        case "AlertView":
+            let viewController = AlertViewSelectionView()
+            self.navigationController?.pushViewController(viewController, animated: true)
+        default:
+            break
         }
     }
 }
